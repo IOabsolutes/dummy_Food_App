@@ -1,0 +1,28 @@
+.meal-input input {
+  border-radius: 0.5rem;
+  width: 6rem;
+  border: 1px solid brown;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  font-size: medium;
+}
+
+.meal-input label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  font-size: large;
+}
+.meal-input button {
+  font-size: medium;
+  width: 6rem;
+  background-color: brown;
+  padding: 0.5rem;
+  border: none;
+}
+.meal-input button:hover {
+  background-color: rgba(165, 42, 42, 0.731);
+}
+button:active {
+  transform: translateY(0.8px);
+  background-color: rgb(229, 35, 35);
+}

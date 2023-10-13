@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.items-container {
+  border-radius: 2.25rem;
+  background-color: white;
+  height: 70%;
+  width: 64rem;
+  overflow-y: auto;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #0073e6 #f0f0f0; /* For Firefox */
+  -webkit-scrollbar-width: thin; /* For Chrome and Safari */
+}
+.items-container::-webkit-scrollbar {
+  width: 8px; /* For Chrome and Safari */
+}
+
+.items-container::-webkit-scrollbar-thumb {
+  background: #0073e6; /* Color of the thumb */
+  border-radius: 4px;
+}
+
+.items-container::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Color of the track */
+}
+
+/* Customize the scrollbar for Firefox */
+.items-container {
+  scrollbar-color: #0073e6 #f0f0f0; /* Color of the thumb and track for Firefox */
+}

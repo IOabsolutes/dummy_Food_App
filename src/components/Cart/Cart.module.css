@@ -1,0 +1,20 @@
+.total-amount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.total-amount li {
+  margin-left: 1rem;
+
+}
+
+.container {
+  margin: 10px;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+}
